@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+/* Makeshift CSS Reset */  
+{margin: 0; padding: 0;}  
+img{border:0px;}
+body { margin-top:0; margin: 0 auto; width: 900px; font: 13px/22px Helvetica, Arial, sans-serif; 
+background-color:#fff;}  
+table {font: 13px/22px Helvetica, Arial, sans-serif; }
+h1 {font-size: 45px; line-height: 44px; padding: 22px 0; margin-bottom: 0;}  
+h2 {font-size: 20px; line-height: 22px; padding: 0; margin-bottom: 0;}  
+h3 {font-size: 18px; line-height: 0px; margin-bottom: 10px;}  
+p {padding-bottom: 22px; }  
+#header,#middleContent,#footer{display:block;}
+#headerWrapper{width:100%; background-image:url(../images/topBG.png); background-repeat:repeat-x; height:200px; float:left; position:absolute; display:block; left:0;}
+#header{height:200px;}
+#homeContent{background-color:#A0C3FF; width:900px; padding:30px; position:relative;}
+#aboutContent{background-color:#A0C3FF; width:900px; height:330px; padding:30px; position:relative;}
+#experienceContent{background-color:#A0C3FF; width:900px; padding:30px; position:relative;}
+#projectsContent{background-color:#A0C3FF; width:900px; padding:30px; position:relative;}
+#contactContent{background-color:#A0C3FF; width:900px; padding:30px; height:180px; position:relative;}
+#footer{height:100px;}
+#navbar{ display:block;background-color:#64A5FF; position:absolute; left:0; width:100%}
+#navbar ul{margin:0 auto; width:850px; list-style:none;}
+#navbar ul li{float:left;}
+#navbar ul li a {display:block; margin-right:20px; width:140px; font-size:14px; line-height:44px; text-align:center; text-decoration:none; color:#000;}
+#navbar ul li a:hover {color:#fff; background-color:#243AFF;}
+#navbar ul li a:selected {color:#fff; background-color:#777 ;}
+#logo {background-image:url(../images/logo.png); background-repeat:no-repeat; padding: 22px 0; font-weight:bold; float:left; position:relative; height:100px; margin-top:-100px; width:320px;}
+#social{float:right;position:relative;}
+#logoSocial{display:block; height:90px; }
+#up a{font-size:14px; font-weight:bold; float:right; color:#FF1212;}
